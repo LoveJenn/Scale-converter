@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scale converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <label for="real_lenght">Ange längd du vill konvertera i cm (OBS! 1:1) :</label><br>
+        <input type="text" id="length_input" name="lname" placeholder="Ange längden du vill konvertera..."><br><br>
+
+        <label for="fname">Välj skalförhållande du vill konvertera till <br></label>
+        <input type="text" id="firstratio" name="fname" placeholder="1"> : <input type="text" id="secondratio"
+            name="fname" placeholder="10"> <br><br>
+
+
+
+        <input type="submit" value="Konvertera" id="submit"><br><br>
+
+        <div>
+            <h1>Resultat (i cm) </h1>
+            <h2 id="result">0</h2>
+        </div>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
